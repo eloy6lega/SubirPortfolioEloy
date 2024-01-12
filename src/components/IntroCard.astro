@@ -1,0 +1,60 @@
+---
+import { Icon } from "astro-icon";
+import { LINKS } from "../lib/constants";
+import Button from "./Button.astro";
+import Card from "./Card/index.astro";
+
+const imagenes = {
+  imagen1 : "/Em1.png",
+  imagen2 : "/Em2.png",
+  imagen3 : "/Em3.png",
+  imagen4 : "/Em4.png"
+}
+
+const randomimage = function() {
+  const images = [imagenes.imagen1, imagenes.imagen2, imagenes.imagen3, imagenes.imagen4];
+  return images[Math.floor(Math.random() * images.length)];
+}
+---
+
+
+<Card colSpan="md:col-span-3" rowSpan="md:row-span-2">
+  <div class="flex w-full h-full">
+    <div class="flex flex-col justify-between md:max-h-[300px] gap-4">
+      <div class="flex flex-col h-full">
+        <h6 class="text-sm font-light m-0 text-gray-500">Bienvenido</h6>
+        <p class="m-0 font-light text-xl">
+          ¡Holaa! Soy <b class="font-bold">Eloy Pérez</b>, un desarrollador web apasionado por la tecnología y el desarrollo de software. Me encanta la auto mejora y dar mi mejor versión.
+        </p>
+      </div>
+      <div class="flex gap-4">
+        <a href={LINKS.github} aria-label="github profile" target="_blank">
+          <Button aria-label="github profile">
+            <Icon name="ri:github-fill" class="h-6" />
+            <span class="sr-only">Perfil GitHub</span>
+          </Button>
+        </a>
+        <a href={LINKS.linkedin} aria-label="linkeding profile" target="_blank">
+          <Button aria-label="linkedin profile">
+            <Icon name="ri:linkedin-box-fill" class="h-6" />
+            <span class="sr-only">Perfil Linkedin</span>
+          </Button>
+        </a>
+        <a href={LINKS.CV} aria-label="CV pdf" target="_blank">
+          <Button aria-label="CV">
+            <Icon name="ri:newspaper-fill" class="h-6" />
+            <span class="sr-only">Ver CV</span>
+          </Button>
+        </a>
+      </div>
+    </div>
+    
+    <img
+      width="300"
+      height="300"
+      src={randomimage()}
+      class="w-auto max-h-[300px] select-none absolute right-[-110px] bottom-[-20px] z-[-1] opacity-50 md:opacity-100 md:relative md:right-auto md:bottom-auto md:z-auto pointer-events-none"
+      alt="memoji of eloy"
+    />
+  </div>
+</Card>
