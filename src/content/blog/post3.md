@@ -24,7 +24,7 @@ También puedes ver la memoria del proyecto haciendo click en el siguiente botó
 
 <button style="width: 50px; height: 50px">
   <a href="/TechHubMemoria.pdf" target="_blank" style="width: 50px; height: 50px">
-    <img src="../../../public/icons/papel.png" alt="Icon" style="border: 4px solid #009900; border-radius: 5px; padding: 5px; background-color: white">
+    <img src="/icons/papel.png" alt="Icon" style="border: 4px solid #009900; border-radius: 5px; padding: 5px; background-color: white">
   </a>
 </button><br>
 <br>
