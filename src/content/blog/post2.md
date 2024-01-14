@@ -1,16 +1,22 @@
 ---
 layout: ../../layouts/LayoutBlogPost.astro
-title: "Proyecto 2"
-description: "el proyecto 2"
-pubDate: 2023-01-21
-category: "intro"
+title: "Xeishop"
+description: "Xeishop - Tienda online - Eloy Pérez"
+pubDate: 2023-12-06
+category: "DiseñoDeInterfacesWeb"
 ---
 
-<!-- 
+<!--
 - **bold** and _italics._
 - lists
 - [links](https://astro.build)
 - and more!
  -->
 
-Poner otro proyecto de ejemplo
+Aquí tenemos el proyecto realizado para la asignatrura de "Diseño de Interfaces Web".
+
+Es una tienda online inspirada en "Zara" y en "Pull and Bear", pero dándole ese toque único.
+
+.
+.
+.
