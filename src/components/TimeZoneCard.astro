@@ -4,6 +4,7 @@ import Card from "./Card/index.astro";
 ---
 
 <script>
+  // import { onCleanup, onMount } from "solid-js";
   import { onCleanup, onMount } from "solid-js";
 import { formatTimeForItaly } from "../lib/helpers";
 
@@ -28,11 +29,12 @@ import { formatTimeForItaly } from "../lib/helpers";
   });
 </script>
 
-<Card colSpan="lg:col-span-2" rowSpan="md:row-span-1" title="Zona Horaria">
+<Card colSpan="md:col-span-1" rowSpan="md:row-span-1" title="Zona Horaria">
   <time
     datetime=""
     id="timeDisplay"
     class="text-2xl xl:text-5xl w-50 xl:w-100 h-[calc(100%-28px)] font-serif flex justify-center items-center"
+    style="max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: x-large;"
   >
     {formatTimeForItaly(getCurrentTimeInItaly())}
   </time>

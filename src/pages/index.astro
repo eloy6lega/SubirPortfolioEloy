@@ -6,9 +6,11 @@ import ContactsCard from "../components/ContactsCard.astro";
 import TimeZone from "../components/TimeZoneCard.astro";
 import AboutMe from "../components/AboutMe.astro";
 import Now from "../components/Now.astro";
+import More from "../components/More.astro";
 ---
 
 <script>
+// import { spring, stagger, timeline, type TimelineDefinition } from "motion";
 import { spring, stagger, timeline, type TimelineDefinition } from "motion";
 import { loaderAnimation } from "../lib/constants";
   const cards = document.querySelectorAll(".card");
@@ -40,7 +42,6 @@ import { loaderAnimation } from "../lib/constants";
     <IntroCard />
     <AboutMe />
     <ContactsCard />
-    <TimeZone />
     <Card
       colSpan="md:col-span-1"
       rowSpan="md:row-span-1"
@@ -48,7 +49,8 @@ import { loaderAnimation } from "../lib/constants";
       href="/blog"
     />
     <Now />
-    <Card colSpan="md:col-span-1" rowSpan="md:row-span-1">
+    <More />
+    <!-- <Card colSpan="md:col-span-2" rowSpan="md:row-span-1">
       <p class="text-xs">
         © 2023-2024 · Hecho con ♥️ usando <a
           href="https://astro.build/"
@@ -56,6 +58,8 @@ import { loaderAnimation } from "../lib/constants";
           class="text-green-500">Astro</a
         > por Eloy.
       </p>
-    </Card>
+    </Card> -->
+    <TimeZone />
+    
   </main>
 </Layout>
