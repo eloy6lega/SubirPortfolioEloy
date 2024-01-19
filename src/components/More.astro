@@ -2,21 +2,18 @@
 import Card from "./Card/index.astro";
 ---
 
-<Card colSpan="md:col-span-2" rowSpan="md:row-span-1" title="Tecnologías adicionales">
+<Card colSpan="md:col-span-2" rowSpan="md:row-span-1" title="Experiencia y hobbies">
+  <style>
+    .text-hover:hover {
+      color: rgb(0, 163, 0);
+      margin-top: 10px;
+      text-shadow: green;
+    }
+  </style>
   <p class="text-sm font-light">
-    HTML5 y CSS3, Python (Jupyter, Matplotlib, Pandas, Numpy), ES6, Bases de datos SQL (MySQL, PostgreSQL, PHPMyAdmin) y No SQL (MongoDB, MongoAtlas).
-  </p> 
-  <!-- <ul class="text-sm font-light pl-5 list-disc">
-    <li><strong>Java</strong></li>
-        <li><strong>JavaScript y TypeScript</strong></li>
-        <li><strong>ES6</strong></li>
-        <li><strong>React</strong></li>
-        <li><strong>Angular</strong></li>
-        <li><strong>Svelte</strong></li>
-        <li ><strong>Node.js y Express</strong></li>
-        <li ><strong>Figma</strong></li>
-        <li><strong>Bases SQL y No SQL</strong></li>
-        <li><strong>SpringBoot</strong></li>
-        <li><strong>Python</strong></li>
-  </ul> -->
+    <ul>
+      <li><strong class="text-hover">Hobbies: </strong>Tecnología, informática y baloncesto</li>
+      <li><strong class="text-hover">Experiencia: </strong>Gracias a varios trabajos que he tenido, he adquirido la habilidad de trabajo en equipo</li>
+    </ul>
+  </p>
 </Card>
