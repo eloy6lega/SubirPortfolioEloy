@@ -6,13 +6,6 @@ pubDate: 2023-12-06
 category: "DiseñoDeInterfacesWeb"
 ---
 
-<!--
-- **bold** and _italics._
-- lists
-- [links](https://astro.build)
-- and more!
- -->
-
 Aquí tenemos el proyecto realizado para la asignatrura de "**Diseño de Interfaces Web**".<br><br>
 
 Es una tienda online inspirada en "Zara" y en "Pull and Bear", pero dándole ese toque único.
@@ -49,31 +42,28 @@ Si iniciamos sesión, nos lleva al apartado del **perfil**, donde nos _da la bie
 
 <br>
 
-El inicio en mi opinión es muy es<br>
+El inicio en mi opinión es muy _atractivo visualmente_, ya que cuenta con mucha _lipieza_ y una _tipografía atractiva_.<br>
 <br>
 
 ![ParteJSON](/img/xei3.webp)<br>
 
 <br>
 
-También tenemos un **formulario de LogIn** para que el cliente se registre. Simplemente introduciendo su _usuario_ y _una contraseña_ podría acceder con su cuenta para poder comprar los cursos. En un futuro se podría mejorar leyendo los usuarios de una base de datos y si no existe, se crea.<br>
+Más abajo tenemos un **About us** y un **mapa** para consultar la ubicación. En el **About** cuenta un poco sobre la marca y el **mapa** la ubica. Además es un **mapa de Google**, con lo que es _compatible_ con la mayor parte de dispositivos actuales.<br>
 <br>
 
 ![ParteContacto](/img/xei4.webp)<br>
 
 <br>
 
-Si hacemos un registro...<br>
-<br>
-
-Vemos como cuando iniciamos sesión se nos crea una cookie.<br>
+Si continuamos bajando, vemos el resultado del **consumo de una API**. Tiene un **filtro de búsqueda** junto con las **características de los productos**.<br>
 <br>
 
 ![ParteContacto](/img/xei5.webp)<br>
 
 <br>
 
-Y un token único de sesión.<br>
+Si **añadimos** productos al **carrito** de compra, nos muestra el **total** preciso del **precio** final.<br>
 <br>
 
 <div>
@@ -82,7 +72,7 @@ Y un token único de sesión.<br>
 
 <br>
 
-En el apartado de monitores, lo que hacemos es el **consumo de una API** creada por nostros. _Consumimos_ y _mostramos_ los monitores de la academia.<br>
+Finalmente tenemos una ****sección de comentarios** donde los usuarios podrán _dejar comentarios_ para mejorar la marca o para _ayudar y orientar a otros clientes_.<br>
 <br>
 
 ![ParteContacto](/img/xei6.webp)<br>
