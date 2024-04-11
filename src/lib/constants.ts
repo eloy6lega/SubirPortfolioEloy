@@ -1,5 +1,5 @@
 export const LINKS = {
-  github: "https://github.com/eloy6lega",
+  github: "https://github.com/eloypgweb",
   linkedin: "https://www.linkedin.com/in/eloy-perez-gomez/",
   instagram: "https://www.instagram.com/eloy_6lega/",
   infojobs: "https://www.infojobs.net/candidate/cv/view/index.xhtml",
